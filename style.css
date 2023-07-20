@@ -2,4 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url('mainbackground.jpg');
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 25px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aqua;
+}
+
+.navbar .logo img{
+    max-width: 15%;
 }
